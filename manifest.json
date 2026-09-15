@@ -1,0 +1,17 @@
+{
+  "manifest_version": 3,
+  "name": "Ava Sidebar",
+  "version": "1.0.0",
+  "description": "Sidebar simple pour chat IA via OpenRouter",
+  "permissions": ["storage", "sidePanel"],
+  "host_permissions": ["https://openrouter.ai/*"],
+  "action": {
+    "default_title": "Ouvrir Ava Sidebar"
+  },
+  "side_panel": {
+    "default_path": "sidebar.html"
+  },
+  "icons": {
+    "48": "icon.png"
+  }
+}
